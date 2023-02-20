@@ -1,23 +1,25 @@
 {
-  "name": "rankmi-tour",
+  "name": "rankmi-tour-example",
   "private": false,
   "version": "0.0.1-beta.0",
   "files": [
     "dist"
   ],
-  "main": "./dist/rankmi-tour.umd.js",
-  "module": "./dist/rankmi-tour.es.js",
+  "main": "./dist/rankmi-tour-example.umd.js",
+  "module": "./dist/rankmi-tour-example.es.js",
   "exports": {
     ".": {
-      "import": "./dist/rankmi-tour.es.js",
-      "require": "./dist/rankmi-tour.umd.js"
+      "import": "./dist/rankmi-tour-example.es.js",
+      "require": "./dist/rankmi-tour-example.umd.js"
     }
   },
   "scripts": {
-    "start": "vite",
+    "start": "vite build --watch",
     "build": "vite build",
-    "debug": "node --inspect-brk ../../vite/bin/vite",
     "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "devDependencies": {
     "vite": "^4.1.3"

@@ -1,3 +1,3 @@
-import MyLib from 'example-lib-tiny-tour'
+import MyLib from 'rankmi-tour-example'
 
 MyLib('.demo');
