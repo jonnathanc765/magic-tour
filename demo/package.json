@@ -1,0 +1,15 @@
+{
+  "name": "example-app",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "start": "vite --config ./vite.config.js",
+    "build": "vite build --config ./vite.config.js"
+  },
+  "dependencies": {
+    "example-lib-tiny-tour": "file:../"
+  },
+  "devDependencies": {
+    "vite": "^4.1.3"
+  }
+}

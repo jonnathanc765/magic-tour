@@ -1,0 +1,26 @@
+{
+  "name": "rankmi-tour",
+  "private": false,
+  "version": "0.0.1-beta.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/rankmi-tour.umd.js",
+  "module": "./dist/rankmi-tour.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/rankmi-tour.es.js",
+      "require": "./dist/rankmi-tour.umd.js"
+    }
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "debug": "node --inspect-brk ../../vite/bin/vite",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.1.3"
+  }
+}
+
